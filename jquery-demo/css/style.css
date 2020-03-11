@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  line-height: 28px;
+  color: #323232;
+  text-align: center;
+  font-size: 100%;
+}
+
+.banner {
+  background: url(../img/portrait.jpeg);
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.banner img {
+  width: 380px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.skills-sum {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skills-sum li {
+  margin-bottom: 10px;
+}
+
+/* .work-one {
+  background: url(../img/stock-desktop.png);
+  min-height: 100%;
+}
+
+.work-two {
+  background: url(../img/design-desktop.png);
+  min-height: 100%;
+}
+
+.work-three {
+  background: url(../img/travler-desktop.png);
+  min-height: 100%;
+} */
+
+.banner,
+.work-one,
+.work-two,
+.work-three {
+  position: relative;
+  opacity: .90;
+  background-position: top;
+  /* center */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  position: absolute;
+  color: #FBF5F3;
+  top: 86%;
+  /* 75% */
+  font-size: 250%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.heading h1 {
+  font-size: 500%;
+}
+
+.heading h2 {
+  margin-top: 30px;
+}
+
+.proj-one {
+  position: relative;  
+  /* right: 40%; */
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.contact {
+  position: absolute;
+  top: 164px;
+  width: 100%;
+  color: white;
+  /* font-size: 60px; */
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 10px black;
+  background: radial-gradient(#222, transparent);
+}
+
+.three-col {
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: left;
+}
+
+section {
+  background-color: #FBF5F3;
+  overflow: auto;
+  padding: 50px 30px;
+}
+
+.dark {
+  overflow: auto;
+  padding: 50px 30px;
+  background-color: #323232;
+  color: #f2f2f2;
+}
+
+.progress {
+  height: 40px;
+}
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FBF5F3;
+}
+
+
+  .three-col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  article {
+    position: relative;
+    width: 100%;
+    height: 100vh;    
+    overflow: hidden;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+  }
+  article img {
+    position: absolute;
+    bottom:0;
+    left: 0;
+  }
+
+  .name p {
+    display: inline-block;
+    font-size: 3rem;
+  }
+
+
+
+/* @media only screen and (min-width:768px) {
+
+  
+
+  .work-one {
+    background: url(../img/stock-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+  }
+
+  .work-two {
+    background: url(../img/design-tablet.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+  }
+
+  .work-three {
+    background: url(../img/travler-tablet.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+}
+
+@media only screen and (min-width: 992px){
+
+  .work-one {
+    background: url(../img/stock-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+  }
+
+  .work-two {
+    background: url(../img/design-desktop.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+  }
+
+  .work-three {
+    background: url(../img/travler-desktop.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+} */
+
