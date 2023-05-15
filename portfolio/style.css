@@ -40,7 +40,7 @@ img {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 56px;
   margin: 0 0 20px 0;
   line-height: 2.6;
 }
@@ -115,6 +115,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px 0;
 }
 
 .service>* {
@@ -148,6 +149,7 @@ button:hover {
 .skills {
   display: flex;
   flex-direction: column-reverse;
+  padding: 40px 0;
 }
 
 .skill-website {
@@ -230,6 +232,7 @@ button:hover {
     flex-basis: 33%;
     border: none;
     margin-top: 0;
+    align-self: flex-start;
   }
 
   .skills {
@@ -278,11 +281,11 @@ button:hover {
     margin-bottom: 40px;
   }
 
-  .skills{
+  .skills {
     height: 480px;
   }
 
-  .contact{
+  .contact {
     margin-bottom: 40px;
   }
 }
